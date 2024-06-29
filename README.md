@@ -8,7 +8,8 @@ Missing values can arise for various reasons, such as data entry errors, non-res
 ### Scenario
 Consider a scenario where we are trying to model loan approval of applicants based on marital status as one of the features. However, 30% of the individuals in our sample are unmarried, and thus their marital status is missing. This missingness is not random; it indicates that these individuals/loan applicants are not married. Instead of just imputing these missing values with mode, we can use an indicator to signify missingness, which can provide the model with additional information.
 
-<img width="1089" alt="image" src="https://github.com/MNCEDISIMNCWABE/handling-missing-values/assets/67195600/a9440b7a-19d9-4478-8d3e-1848bfa31fb9">
+<img width="1130" alt="image" src="https://github.com/MNCEDISIMNCWABE/handling-missing-values/assets/67195600/0de733be-fe20-4fbe-a0a0-52e1dd784bf9">
+
 
 
 ### Why Use Missing Value Indicators?
