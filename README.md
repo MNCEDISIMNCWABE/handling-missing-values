@@ -6,7 +6,7 @@ In data science, handling missing values is a common and crucial task. Different
 Missing values can arise for various reasons, such as data entry errors, non-responses in surveys, or the inapplicability of certain variables to some observations. Properly handling missing data is essential to ensure the accuracy and reliability of your models.
 
 ### Scenario
-Consider a scenario where we are trying to model loan approval based on marital status. However, 30% of the individuals in our sample are unmarried, and thus their marital status is missing. This missingness is not random; it indicates that these individuals/loan applicants are not married. Instead of just imputing these missing values with mode, we can use an indicator to signify missingness, which can provide the model with additional information.
+Consider a scenario where we are trying to model loan approval of applicants based on marital status. However, 30% of the individuals in our sample are unmarried, and thus their marital status is missing. This missingness is not random; it indicates that these individuals/loan applicants are not married. Instead of just imputing these missing values with mode, we can use an indicator to signify missingness, which can provide the model with additional information.
 
 <img width="1045" alt="image" src="https://github.com/MNCEDISIMNCWABE/handling-missing-values/assets/67195600/306d0a90-f5fb-47fc-a813-80690c1228a3">
 
