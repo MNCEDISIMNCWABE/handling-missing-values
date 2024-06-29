@@ -20,6 +20,7 @@ Using a missing value indicator can be particularly useful for several reasons:
 - Maintains Data Integrity: Imputing missing values without an indicator can lead to misleading results. An indicator helps maintain the integrity of the original data.
 - Instead of solely relying on mode imputation, using a missing value indicator adds a layer of benefit by explicitly modeling the missingness. This technique can enhance the model’s ability to interpret and utilize the information contained in the missing values, leading to potentially better performance and insights.
 - Just using mode imputation can obscure the reasons behind the missingness, potentially leading to less accurate models and weaker insights, as it assumes that the missing values are randomly distributed and doesn't account for the systematic differences between married and unmarried individuals.
+- Combining mode imputation with a missing value indicator provides the best of both worlds. The mode imputation ensures that there are no missing values in the data, which some algorithms may require, while the missing value indicator preserves the information about the missingness. This combination can improve model performance by leveraging both the filled values and the original missingness information.
 
 #### Conclusion
 Handling missing values using indicators is a powerful technique that can improve the accuracy and interpretability of your models. By explicitly modeling the missingness, you can capture additional information and maintain the integrity of your data.
